@@ -1,17 +1,17 @@
  
-#Electronic Color Calculator
+# Electronic Color Calculator
 
-###Definition
+### Definition
 
 The electronic color code is used to indicate the values or ratings of electronic components, very commonly for resistors.
     
-###Description
+### Description
 [here](http://en.wikipedia.org/wiki/Electronic_color_code) is some of the best details.
 
-###Demon
-[demo]()
+### Demon
+Clique [demo](http://soul-camara-calculator.surge.sh) 
 
-####Requirements
+#### Requirements
 Write a class that implements the following interface. Feel free to include any supporting types as necessary.
 
 public interface IOhmValueCalculator
@@ -38,7 +38,7 @@ public interface IOhmValueCalculator
 
  Be aware that the application is set to black color for BAnd A and B in order to start ohm val by 0.
  
- ####Tech
+ #### Tech
  
 1-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 2- for Unit test I used [jest](https://github.com/jsdom/jsdom) and [Enzyme](https://github.com/airbnb/enzyme) 
