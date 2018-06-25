@@ -9,7 +9,7 @@ The electronic color code is used to indicate the values or ratings of electroni
 [here](http://en.wikipedia.org/wiki/Electronic_color_code) is some of the best details.
 
 ### Demon
-Clique [demo](http://soul-camara-calculator.surge.sh) 
+Clic [demo](http://soul-camara-calculator.surge.sh) 
 
 #### Requirements
 Write a class that implements the following interface. Feel free to include any supporting types as necessary.
