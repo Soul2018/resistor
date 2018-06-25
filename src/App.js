@@ -144,7 +144,6 @@ class App extends Component {
 		selectedOptionC.multiplier,
 		selectedOptionD.tolerance
 	] ;
-debugger
 	const resultValues = CalculateFinalValue((valueABCD));
 
 	  return (
@@ -152,6 +151,7 @@ debugger
 		<Header />
 
 		  { this.state.initSetBand.map((val, ind) => {
+
 			return <Resistor source={val.src} cla={val.className} alt={val.alt} key={ind +1 } />
 		  })}
 		<div>

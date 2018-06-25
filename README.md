@@ -16,13 +16,11 @@ Write a class that implements the following interface. Feel free to include any 
 
 public interface IOhmValueCalculator
 {
-   /// <summary>
-   /// 					.
-   /// </summary>
-   /// <param name="bandAColor">The color of the first figure of component value band.</param>
-   /// <param name="bandBColor">The color of the second significant figure band.</param>
-   /// <param name="bandCColor">The color of the decimal multiplier band.</param>
-   /// <param name="bandDColor">The color of the tolerance value band.</param>
+   
+    <param name="bandAColor">The color of the first figure of component value band.</param>
+    <param name="bandBColor">The color of the second significant figure band.</param>
+    <param name="bandCColor">The color of the decimal multiplier band.</param>
+    <param name="bandDColor">The color of the tolerance value band.</param>
    int CalculateOhmValue(string bandAColor, string bandBColor, string bandCColor, string bandDColor);
 }
 
@@ -34,7 +32,7 @@ public interface IOhmValueCalculator
 
 5.  We will look at your GUI, so it’s important we are able to compile and run your application.
 
-####Info
+#### Info
 
  Be aware that the application is set to black color for BAnd A and B in order to start ohm val by 0.
  
