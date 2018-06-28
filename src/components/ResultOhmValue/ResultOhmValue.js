@@ -1,5 +1,5 @@
 import React from 'react';
-import {string} from 'prop-types';
+import {number} from 'prop-types';
 
 const ResultOhmValue = (props) => {
 
@@ -17,7 +17,7 @@ const ResultOhmValue = (props) => {
 export default ResultOhmValue;
 
 ResultOhmValue.propTypes = {
-	value: string.isRequired,
-	min: string.isRequired,
-	max: string.isRequired
+	value: number.isRequired,
+	min: number.isRequired,
+	max: number.isRequired
 }
