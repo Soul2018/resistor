@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 
-  const CalculateOhmValue = ([bandAValue=0, bandBValue=0, bandCValue=1, bandDValue=20]) => {
+
+  let CalculateOhmValue = ([bandAValue=0, bandBValue=0, bandCValue=1, bandDValue=20, currentState='']) => {
 
 	const initialValue = ((bandAValue * 10) + bandBValue) * bandCValue;
 	const currentTol = initialValue * bandDValue/100;
